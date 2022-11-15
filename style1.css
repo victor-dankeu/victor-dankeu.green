@@ -1,0 +1,114 @@
+nav ul
+{
+    display: flex;
+    text-decoration: none;
+    list-style-type:none;
+    width: 1150px;
+    transform: translate(65px,0px);
+    border-radius: 10px;
+}
+
+nav ul li 
+{
+    flex: 1 1 auto;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    
+}
+
+li.img{
+    transform: translate(0px,20px);
+}
+
+li
+{
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(231, 224, 224);
+  }
+
+nav ul li:hover
+{
+    color: rgb(18, 18, 20);
+}
+
+nav ul li a 
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 8px;
+
+}
+li a:hover {
+    background-color: rgb(96, 107, 100);
+}    
+
+nav{
+    color: black;
+}
+
+h2.green
+{
+    text-align: center;
+}
+
+.grid-container{
+    width: 90%;
+    padding: 12px;
+    display : grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 30px;
+    transform: translate(55px,0px);
+    
+  }
+
+  div.famille h2{
+    transform: translate(63px,0px);
+
+  }
+  
+
+  .grid-container>a{
+    border: solid 1px;
+    background-color: rgb(134, 161, 133);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border: 8px solid rgb(134, 161, 133);
+    height: 175px;
+    width: 340px;
+    border-radius: 10px;
+    
+}
+
+/*.grid-container>a:hover ||||||||||||||A faire : Changer de couleur au survol de la souris
+    color: blue;
+}*/
+span{
+    font-size: 22px; ;
+    font-family: sans-serif;
+    color: rgb(252, 235, 6);
+}
+div a p{
+    color: white;
+}
+.grid-container>a:hover{
+    position: relative;
+    bottom: 10px;
+    left: 8px;
+} 
+
+.liste_panier h1{
+
+    transform: translate(100px,0px);
+
+}
